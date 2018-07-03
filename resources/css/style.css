@@ -14,12 +14,13 @@ html {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  margin: 0;
 
 }
 
 .navigation-bar {
-
   display: flex;
+  justify-content: space-between;
   height: 2.5rem;
   margin-left: 10%;
   margin-right: 10%;
@@ -28,11 +29,6 @@ html {
 
 }
 
-.navigation-bar  {
-  display: flex;
-  justify-content: space-between;
-
-}
 
 nav {
   display: flex;
@@ -72,4 +68,93 @@ nav span {
   width: 30%;
   margin-left: 35rem;
   margin-top:10rem;
+}
+
+/*Products and Services Section*/
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 3rem;
+}
+
+.images {
+  padding-right: 6rem;
+  margin-bottom: 3rem;
+
+}
+
+figure {
+  display: table;
+  height: 8rem;
+  width: 5rem;
+}
+
+figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  text-align: center;
+  width: auto;
+  padding-top: 1rem;
+}
+
+
+
+/*Company info sections*/
+
+.vision {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+.philosophy h2 {
+  width: auto;
+  font-size: 1rem;
+  background-color: cadetblue;
+  padding: 0.5rem 1.25rem;
+  color: white;
+}
+
+.Appointments h2 {
+  width: auto;
+  font-size: 1rem;
+  background-color: cadetblue;
+  padding: 0.5rem 1.25rem;
+  color: white;
+
+}
+
+.philosophy {
+  width: 45%;
+}
+
+.Appointments {
+  width: 45%;
+}
+
+/*footer section*/
+
+.footer {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: azure;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+
+.footer img {
+  padding-right: 1rem;
+  padding-left: 4rem;
+  padding-top: 1rem;
+  height: 1.5rem;
+  width: auto;
 }
